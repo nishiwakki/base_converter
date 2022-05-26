@@ -1,0 +1,54 @@
+body {
+    color: #3f3f3f;
+    font-family: "M PLUS Rounded 1c";
+}
+
+h1 {
+    padding: 1rem 2rem;
+    border-left: 8px solid #3f3f3f;
+}
+
+h2 {
+    margin-top: 24px;
+}
+
+.box1{
+    padding: 1em 1em;
+    margin: 2em 0;
+    width: 600px;
+    color: #3f3f3f;
+    background: white;
+    border-top: solid 5px #3f3f3f;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+th,td {
+    border: solid 1px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+    margin: 0 12px 60px 0;
+    table-layout: fixed;
+}
+
+.button {
+    border-radius: 25%;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 0 24px 150px;
+    padding: 12px 24px;
+    background: #ffffff;
+    border: 3px solid #3f3f3f;
+}
+
+.button:active {
+    color: #ffffff;
+    background: #3f3f3f;
+}

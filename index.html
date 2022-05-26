@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>進数変かんを理解しよう</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    </head>
+    <body>
+        <h1>進数変かんを理解しよう</h1>
+        <div class="box1">
+            <p>
+                私たちになれ親しんだ10進数をみながら，2進数や16進数がどのような数に変化するかを観察しよう。
+                まずは下の動画を見て「進数Live変かん」の使い方を知ろう。
+            </p>
+        </div>
+        <h2>
+            ■ 使い方
+        </h2>
+        <video controls width="600" height="300" src="bc_movie.mp4"></video>
+        <h2>
+            ■ 進数Live変かん
+        </h2>
+        <input type="button" value="＋１" onclick="increment()" class="button">
+        <input type="button" value="−１" onclick="decrement()" class="button">
+        <br>
+        <table id="table2" border="1" align="left">
+            <tr>
+                <th colspan="8">2進数</th>
+            </tr>
+        </table>
+        <table id="table10" border="1" align="left" >
+            <tr>
+                <th colspan="8">10進数</th>
+            </tr>
+        </table>
+        <table id="table16" border="1"  align="left">
+            <tr>
+                <th colspan="8">16進数</th>
+            </tr>
+        </table>
+        <br>
+        <script src="app.js"></script>
+    </body>
+</html>
