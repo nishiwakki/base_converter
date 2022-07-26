@@ -2,24 +2,25 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>進数変かんを理解しよう</title>
+        <title>2進数になれ親しもう</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
     </head>
     <body>
-        <h1>進数変かんを理解しよう</h1>
+        <h1>２進数になれ親しもう</h1>
         <div class="box1">
             <p>
-                私たちになれ親しんだ10進数をみながら，2進数や16進数がどのような数に変化するかを観察しよう。
-                まずは下の動画を見て「進数Live変かん」の使い方を知ろう。
+                私たちになれ親しんだ10進数をみながら，2進数がどのように変化するかを観察しよう。
+                まずは「進数変かん器」の使い方を読み，2進数がどんなものかを体験しよう。
             </p>
         </div>
         <h2>
             ■ 使い方
         </h2>
-        <video controls width="600" height="300" src="bc_movie.mp4"></video>
+        <!--<video controls width="600" height="300" src="bc_movie.mp4"></video>-->
+        
         <h2>
-            ■ 進数Live変かん
+            ■ 進数変かん器
         </h2>
         <input type="image" alt="+1" onclick="increment()" class="button" src="plus.png">
         <input type="image" alt="-1" onclick="decrement()" class="button" src="minus.png">
@@ -34,13 +35,14 @@
                 <th colspan="8">10進数</th>
             </tr>
         </table>
+        <!--
         <table id="table16" border="1"  align="left">
             <tr>
                 <th colspan="8">16進数</th>
             </tr>
         </table>
+        -->
         <br>
-        <p>※ 最大255（10進数）まで確認できます。</p>
         <script src="app.js"></script>
     </body>
 </html>

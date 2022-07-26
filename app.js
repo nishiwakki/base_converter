@@ -8,7 +8,7 @@ function increment() {
     release()
     change_table(2);
     change_table(10);
-    change_table(16);
+    //change_table(16);
 }
 
 function decrement() {
@@ -18,13 +18,13 @@ function decrement() {
         release();
         change_table(2);
         change_table(10);
-        change_table(16);
+        //change_table(16);
     }
 } 
 
 function make_table(base, id) {
     var table = document.getElementById(id);
-    for (var i = 0; i < 16-base; i++) {
+    for (var i = 0; i < 10-base; i++) {
         var tr = document.createElement('tr');
         var td = document.createElement('td');
         td.innerHTML = '　';
@@ -73,17 +73,19 @@ function release() {
             un_check('10_' + String(j) + '_' + arr[i]);
         }
     }
+    /*
     for (var i = 0; i < 16; i++) {
         for (var j = 0; j < 8; j++) {
             un_check('16_' + String(j) + '_' + arr[i]);
         }
     }
+    */
 }
 
 make_table(2, 'table2');
 make_table(10, 'table10');
-make_table(16, 'table16');
+//make_table(16, 'table16');
 
 check('2_0_0');
 check('10_0_0');
-check('16_0_0');
+//check('16_0_0');
